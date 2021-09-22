@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos kis telefon nezet</title>
+    <script src="https://kit.fontawesome.com/bc8a046247.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<section>
+
+
+<div id="bevitel">
+
+<input id="inputMezo"   type="text"  value=""  maxlength="12" >
+
+<div id="haromgomb">
+    <button class="gombok" id="fogomb"> Listába </button>
+    <button class="gombok" id="ujelem"> Új elem </button>
+    <button class="gombok" id="veletlenhatter"> háttér?        </button>
+</div>
+
+</div>
+
+
+
+<ul>
+    <li class="sor" id="sor1" data-szamozo="1" value=By milk>
+            By milk
+            <button class="ikon" data-szamozo="1">  <i class="fas fa-space-shuttle"></i>   </button>
+            <button class="torl" id="torl1"  data-szamozo="1" >   Törlés  </button>
+                                                    <!-- .................................. A következő 4 sort írtam be -->
+            <div class="rejt tenymegslath" id="tenymegs1"  data-szamozo="1" >
+                <button class="teny lathgomb" id="teny1"  data-szamozo="1" >   Tényleg törlés  </button>   
+                <button class="megs lathgomb" id="megs1"  data-szamozo="1" >   Mégsem  </button>
+            </div>
+    </li> 
+</ul>
+
+
+
+<p> szöveg</p>
+<div id="doboz"></div>
+
+
+
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
